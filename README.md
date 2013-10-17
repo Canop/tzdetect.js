@@ -21,7 +21,7 @@ See http://dystroy.org/stackoverflow/timezonedetect.html
 Usage
 -----
 
-	tzid = tzdetect.matches()[0]; // gives the IANA name of a time zone compatible with the browser's one
+	tzid = tzdetect.matches()[0]; // for example : "Europe/Paris"
 
 Related
 -------
