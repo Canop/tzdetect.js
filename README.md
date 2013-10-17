@@ -10,7 +10,7 @@ This is experimental. This seems to work, as for now, but it's mostly the basis 
 Goals
 -----
 
-* list all IANA time zone ids that are compatible with the javascript engine
+* detect the user timezone, or more precisely list all IANA time zone ids that are compatible with the running javascript engine
 * limit data duplication by using the Moment.js version of the Olson tables
 
 Demo
