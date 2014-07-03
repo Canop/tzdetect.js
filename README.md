@@ -16,7 +16,12 @@ See http://dystroy.org/stackoverflow/timezonedetect.html
 Usage
 -----
 
-	tzid = tzdetect.matches()[0]; // for example : "Europe/Paris"
+	<script src="moment-with-langs.min.js"></script>
+	<script src="moment-timezone-with-data.min.js"></script>
+	<script src="tzdetect.js"></script>
+	<script>
+		var tzid = tzdetect.matches()[0]; // for example : "Europe/Paris"
+	</script>
 
 Related
 -------
