@@ -2,11 +2,6 @@ tzdetect.js
 ===========
 
 
-Warning
--------
-
-This is experimental. This seems to work, as for now, but it's mostly the basis for the elaboration of something stronger, maybe a proper extension or plugin for Moment.js. Changes brought with ES6 are in the radar.
-
 Goals
 -----
 
