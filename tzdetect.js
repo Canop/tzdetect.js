@@ -1,9 +1,8 @@
-// a small library using moment.js, detecting the user's timezone
+// A small public domain library detecting the user's timezone using moment.js
 // Repository : https://github.com/Canop/tzdetect.js
-// It must be included between the moment-timezone.js script and the moment-timezone-data.js one.
 // Usage :
-//   tzdetect.names : an array of all available timezone id
-//   tzdetect.matches(base) : returns an array of all timezones matching the user's one, or supplied base timezone
+//   tzdetect.matches()     : array of all timezones matching the user's one
+//   tzdetect.matches(base) : array of all timezones matching the supplied one
 var tzdetect = {
 	names: moment.tz.names(),
 	matches: function(base){
@@ -11,7 +10,6 @@ var tzdetect = {
 			return [0, 4, 8, -5*12, 4-5*12, 8-5*12, 4-2*12, 8-2*12].map(function(months){
 				var m = moment(now + months*30*24*60*60*1000);
 				if (id) m.tz(id);
-				// Compare using day of month, hour and minute (some timezones differ by 30 minutes)
 				return m.format("DDHHmm");
 			}).join(' ');
 		}, lockey = makekey(base);

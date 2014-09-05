@@ -1,7 +1,6 @@
 tzdetect.js
 ===========
 
-
 Goals
 -----
 
