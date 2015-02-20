@@ -1,0 +1,22 @@
+{
+  "name": "tzdetect",
+  "main": "tzdetect.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Canop/tzdetect.js",
+  "authors": [
+    "Canop"
+  ],
+  "description": "detect user timezone for momentJS",
+  "keywords": [
+    "momentjs",
+    "timezone"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
