@@ -1,6 +1,11 @@
 tzdetect.js
 ===========
 
+Notice
+------
+
+There's now a [guess](http://momentjs.com/timezone/docs/#/using-timezones/guessing-user-timezone/) API in moment.js, making my library largely useless.
+
 Goals
 -----
 
